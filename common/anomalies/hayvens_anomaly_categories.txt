@@ -1,0 +1,12 @@
+# Hayvens planet
+hayven_anomaly_catagory = {
+	desc = "hayven_anomaly_desc"
+	picture = GFX_evt_alien_ruins
+	level = 1
+
+	max_once_global = yes
+	
+	on_success = {
+		1 = hayvens_event.1
+	}
+}

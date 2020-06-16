@@ -1,0 +1,28 @@
+hayven_system_initializer = {
+	name = "Azerothia System"
+	class = "sc_f"
+#	asteroids_distance = { min = 20 max = 30 }
+#	flags = { azerothia_system }
+	max_instances = 1
+	usage_odds = 1
+	usage = misc_system_init
+
+#White Star system
+
+	planet = {
+		name = "The Light"
+		class = "pc_f_star"
+		orbit_distance = 0
+		orbit_angle = 1
+	}
+
+	planet = {
+		class = "pc_barren"
+		orbit_distance = { min = 60 max = 70 }
+		orbit_angle = -90
+		size = 20
+		has_ring = no
+		flags = { hayvens_planet }
+		anomaly = "hayven_anomaly_catagory"
+	}
+}

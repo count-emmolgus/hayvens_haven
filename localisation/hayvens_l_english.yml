@@ -1,0 +1,11 @@
+﻿l_english:
+
+ hayven_name:0 "Strange Calmness on Planet"
+ 
+ hayven_anomaly_catagory:0 "Strange Structure on Planetoid"
+ 
+ hayven_anomaly_desc:0 "There seem to be some kind of artificial structure on the planet."
+ 
+ hayven_desc:0 "While investigating the planet, our Science officer [Root.GetLeaderName] reports that [From.GetName] has some kind of bio-sphere on it, that seems to radiate a sense of calmness when nearing it. \n\nFurther investigation lead [Root.GetLeaderName] to discover a small building inside the biosphere with a living being inside.\nAfter greeting [Root.GetLeaderName] with a smile as if being a long lost friend, the being told [Root.GetLeaderName] stories of the wonders in the world, both still existing and some forever lost.\n\n[Root.GetLeaderName] sat in amazement while listening to this strangers tales. Lost to the rest of the galaxy while listening to this beings stories"
+ 
+ hayven_option.1.a:0 "But I want to hear more of his tales!"

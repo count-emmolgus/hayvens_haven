@@ -1,0 +1,31 @@
+namespace = hayvens_event
+
+# ROOT = ship scope
+# FROM = planet scope
+
+ship_event = {
+	id = hayvens_event.1
+	title = "hayven_name"
+	desc = "hayven_desc"
+	picture = GFX_evt_alien_ruins
+	show_sound = event_ship_bridge
+	location = FROM
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hayven_option.1.a
+		owner = {
+			add_monthly_resource_mult = {
+				resource = society_research
+				value = @tier1researchreward
+				min = @tier1researchmin
+				max = @tier1researchmax
+			}
+		}
+		random_planet = {
+			limit = { has_planet_flag = hayvens_planet }
+			set_name = "Hayvens Haven"
+		}
+	}
+}
